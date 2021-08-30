@@ -3,7 +3,13 @@ package Strategy;
 import java.util.ArrayList;
 import java.util.Collections;
 public class BinarySearch implements SearchBehavior {
-
+    /** 
+     * Checks if the indicated person is already in the guest list using a binary search and sorts in alphabetical order
+     * @param data The guest list of people
+     * @param item The name of the person to find
+     * @return True or false if the person is found or not
+     * reference : https://www.geeksforgeeks.org/binary-search-a-string/
+     */
     public boolean contains(ArrayList<String> data, String item) {
         Collections.sort(data);
         int left = 0; 
