@@ -1,5 +1,8 @@
 package Decorator;
-
+/**
+ * An add on of a hat
+ * @author Ben dela Pena
+ */
 public class Hat extends CharacterDecorator{
     /**
      * Sets the character

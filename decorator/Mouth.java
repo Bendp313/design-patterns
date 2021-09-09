@@ -1,5 +1,8 @@
 package Decorator;
-
+/**
+ * An add on of a mouth
+ * @author Ben dela Pena
+ */
 public class Mouth extends CharacterDecorator{
     /**
      * Sets the character

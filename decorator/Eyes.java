@@ -1,5 +1,8 @@
 package Decorator;
-
+/**
+ * An add on of eyes
+ * @author Ben dela Pena
+ */
 public class Eyes extends CharacterDecorator{
     /**
      * Sets the character
